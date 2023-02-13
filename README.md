@@ -1,4 +1,5 @@
-clone from : https://github.com/GCham5/ShopSmart
+cloned from : https://github.com/GCham5/ShopSmart
+devpost : https://devpost.com/software/shopsmart-426cie
 
 uOttahack competition winners for Noibu sponsor
 
