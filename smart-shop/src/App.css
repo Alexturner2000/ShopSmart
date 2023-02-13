@@ -1,0 +1,15 @@
+.App {
+  text-align: center;
+}
+
+.appheader{
+  padding: 2rem;
+  background-color: lightblue;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.appbody { 
+  display: flex;
+  margin-top: 1rem;
+}

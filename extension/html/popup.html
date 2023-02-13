@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="../css/popup.css">
+  </head>
+  <body>
+    <div class="header-container">
+      <img src="../images/icon-32x32.png" alt="Logo" class="logo">
+      <h1 class="header">ShopSmart</h1>
+    </div>
+    <label for="userType">Please select a user type</label>
+      <select name="userType" id="userType">  
+        <option value="customer">Customer</option>
+        <option value="business">Business</option>
+    </select>
+    <div id="customer" style="display: block;">
+      <div class="coupon-code">
+        <p class="code">SHOPSMART10</p>
+        <p class="description">10% off your first purchase</p>
+      </div>
+    </div>
+    <div id="business" style="display: none;">
+      <div id="card-container">
+        <!-- Card will be inserted here -->
+      </div>
+    </div>
+
+    <script src="../popup.js"></script>
+    
+  </body>
+</html>
